@@ -4,6 +4,7 @@
     justify-content: center;
     background-color: #013914;
     color: #fff;
+
     .container {
         width: 1200px;
         display: flex;
@@ -28,6 +29,7 @@
                 justify-content: space-between;
                 background-color: #fff;
                 border-radius: 5px;
+
                 .searchInput {
                     display: flex;
                     align-items: center;
@@ -42,7 +44,7 @@
                     input {
                         border: none;
                         outline: none;
-                        
+
                     }
                 }
 
@@ -60,7 +62,9 @@
                 display: flex;
                 align-items: center;
                 gap: 10px;
+
                 span {}
+
                 button {
                     color: #fff;
                     background-color: transparent;
@@ -72,11 +76,13 @@
                 }
             }
         }
+
         .right {
             height: 100%;
 
             img {
                 height: 100%;
+                width: 520px;
                 object-fit: contain;
             }
         }

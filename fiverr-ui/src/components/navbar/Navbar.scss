@@ -7,6 +7,7 @@
     transition: 0.5s all ease;
     position: sticky;
     top: 0;
+    z-index: 999;
 
     &.active {
         background-color: #fff;
@@ -92,7 +93,7 @@
     }
 
     .menu {
-        width: 1200px;
+        width: 1400px;
         padding: 10px 0px;
         display: flex;
         justify-content: space-between;
