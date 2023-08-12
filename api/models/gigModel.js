@@ -69,4 +69,4 @@ const gigSchema = new Schema(
   }
 );
 
-export default mongoose.model("Users", gigSchema);
+export default mongoose.model("Gig", gigSchema);
